@@ -1,0 +1,29 @@
+=========== Library Management System ===========
+
+---- Borrowing Library Items ----
+Alice borrowed: Book: Python 101 by A. Rao (ID 1)
+Could not borrow: This item is already borrowed.
+
+---- Encapsulation ----
+Encapsulation: 'Book' object has no attribute '__available'
+Book availability: False
+
+---- Borrow Limit Check ----
+Bob borrowed: Magazine: Forbes with issue number: 12345 (ID 2)
+Could not borrow: Bob has reached the maximum borrowing limit
+
+---- Returning an item ----
+Alice returned the book. Late fee: Rs 6
+Return error: This item was not borrowed by Alice
+
+---- Borrowed Items List ----
+Alice's borrowed items: []
+Bob's borrowed items: ['Forbes']
+
+---- Late Fee Check ----
+Book: Python 101 by A. Rao (ID 1) -> late fee for 3 days: Rs 6
+Magazine: Forbes with issue number: 12345 (ID 2) -> late fee for 3 days: Rs 3
+DVD: Devdas with duration_minutes: 180 (ID 3) -> late fee for 3 days: Rs 15
+
+---- Total Items ----
+Total items created: 3
